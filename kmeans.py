@@ -47,8 +47,3 @@ def kMeans(data,k):
 def euclidean(x,y):
     '''Calculate euclidean distance between 2 vectors'''
     return np.sqrt(np.sum((a-b)**2))
-
-if __name__ == '__main__':
-    file = 'data.txt'
-    data = preprocess(file)
-    kMeans(data,k)
